@@ -4,7 +4,7 @@ import certifi
 uri = "mongodb+srv://username:password@netflix.s0ikh66.mongodb.net/?retryWrites=true&w=majority"
 
 
-# mongoimport --uri "mongodb+srv://nagasuresh:LTOJzMBRshCukNcm@netflix.s0ikh66.mongodb.net/?retryWrites=true&w=majority" --type csv --headerline --db database  --collection netflix --file netflix.csv
+# mongoimport --uri "mongodb+srv://username:password@netflix.s0ikh66.mongodb.net/?retryWrites=true&w=majority" --type csv --headerline --db database  --collection netflix --file netflix.csv
 
 def main():
     # Create a new client and connect to the server
